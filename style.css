@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #25312f;
+  background-color: #eef1ea;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+}
+
+.abertura {
+  background-color: #1e3f3b;
+  color: #fff8f0;
+  text-align: center; 
+  padding: 50px 20px;
+}
+
+.intro {
+  font-family: "Caveat", cursive;
+  font-size: 44px;
+  color: #ffe3d1;
+  margin: 0;
+}
+
+.abertura h1 {
+  font-family: "Anton", Impact, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 5px 0 15px;
+}
+
+.frase {
+  font-family: "Courier New", monospace;
+  margin: 0;
+}
+
+.abertura audio {
+  display: block;
+  width: 100px;  
+  height: 40px;
+  margin: 25px auto 0; 
+  border-radius: 30px;
+}
+
+.abertura img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  object-position: center top; 
+  border-radius: 50%;
+  border: 6px solid #b8492a;
+  margin: 30px auto 0;
+}
+
+hr {
+  width: 80px;
+  border: 2px solid #b8492a;
+  margin: 50px auto;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #1e3f3b;
+  border-left: 6px solid #b8492a;
+  padding-left: 15px;
+}
+
+main img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 25px auto;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 8px 8px 0 #b8492a;
+}
+
+.hobbies {
+  position: relative;
+  background-color: white;
+  border: 3px dashed #b8492a;
+  border-radius: 20px;
+  padding: 10px 30px 20px;
+}
+
+.hobbies ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.hobbies li {
+  margin-bottom: 12px;
+}
+
+.hobbies::after {
+  content: "🐉";
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+  font-size: 80px;
+  opacity: 0.15;
+}
+
+.tabela-rolavel {
+  border: 3px solid #b8492a;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #b8492a;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #f3d3c0;
+}
+
+.contato {
+  background-color: #1e3f3b;
+  color: #fff8f0;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.contato h2 {
+  color: #f3d3c0;
+  border-left: none;
+  padding-left: 0;
+}
+
+.links a {
+  display: inline-block;
+  background-color: #b8492a;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.links a:hover {
+  background-color: #933820; 
+}
